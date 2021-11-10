@@ -1,6 +1,5 @@
 .array-container {
-    position: absolute;
-    left: 100px;
+    background-color: var(--secondary);
     /* top: 100px; */
   }
   
@@ -8,4 +7,25 @@
     width: 2px;
     display: inline-block;
     margin: 0 1px;
+  }
+
+.button-area{
+    background-color: var(--primary);
+    width: 100%;
+}
+
+.button{
+    margin: 0 10px;
+    border-radius: 2px;
+    background-color: var(--highlight);
+    box-shadow: var(--secondary);
+}
+
+
+:root {
+    --primary: #2c3531;
+    --secondary: #116466;
+    --light_primary: #d9b08c;
+    --light_secondary: #ffcb9a;
+    --highlight: #d1e8e2;
   }
